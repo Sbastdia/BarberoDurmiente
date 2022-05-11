@@ -11,7 +11,7 @@ duracionMaxCorte = 15
 
 #Eventos
 class Barberia:
-	clientesEspera = []
+	clientesEspera = [] #Sala de espera
 
 	def __init__(self, barbero, numeroSillas):
 		self.barbero = barbero
